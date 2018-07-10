@@ -315,7 +315,12 @@ class SlidingUpPanel extends React.Component {
       return null
     }
 
-    return [this._renderBackdrop(), this._renderContent()]
+    return (
+      <View style={styles.container} pointerEvents="box-none">
+        {this._renderBackdrop()}
+        {this._renderContent()}
+      </View>
+    )
   }
 }
 
