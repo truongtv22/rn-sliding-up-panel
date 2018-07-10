@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import {Animated, PanResponder, Platform} from 'react-native'
+import {View, Animated, PanResponder, Platform} from 'react-native'
 
 import clamp from 'clamp'
 
